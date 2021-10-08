@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Grids">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/grids_oidc.zip!/" />
+      <root url="jar://$PROJECT_DIR$/oidc-test-example.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

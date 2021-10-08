@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  test-oidc:
+    image: endimion13/grids-test-oidc:0.0.1
+    environment:
+      ISSUER_URL: https://vm.project-grids.eu:8180/auth/realms/grids
+      OIDC_CLIENT_ID: test
+      OIDC_CLIENT_SECRET: 5814f193-2ef3-45ee-967c-e4e647d9bc48
+      OIDC_REDIRECT_URI: http://dss1.aegean.gr:3030/callback
+    ports:
+      - 3030:3000
+
+ 
